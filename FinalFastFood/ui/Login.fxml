@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FF5722;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1">
+    <VBox alignment="CENTER" layoutX="150.0" layoutY="50.0" spacing="20.0" />
+
+     <!-- Form đăng nhập -->
+     <VBox alignment="CENTER" layoutX="149.0" layoutY="85.0" prefHeight="234.0" prefWidth="303.0" spacing="10.0" style="-fx-background-color: white; -fx-padding: 20; -fx-background-radius: 10;">
+         <TextField fx:id="usernameField" promptText="Tên đăng nhập" />
+         <PasswordField fx:id="passwordField" promptText="Mật khẩu" />
+         <Button style="-fx-background-color: #D84315; -fx-text-fill: white; -fx-font-weight: bold; -fx-background-radius: 5;" text="Đăng nhập" />
+         <Hyperlink style="-fx-text-fill: #FF5722;" text="Đăng ký tài khoản mới" />
+     </VBox>
+     <!-- Tiêu đề -->
+     <Label layoutX="212.0" layoutY="50.0" style="-fx-font-size: 24px; -fx-text-fill: white; -fx-font-weight: bold;" text="Fast Food Store" />
+</AnchorPane>
